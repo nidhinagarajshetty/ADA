@@ -23,8 +23,6 @@ def topological_sort(n, edges):
 
     print("Topological Order:", order)
 
-
-# Main
 n = int(input("Enter number of vertices: "))
 e = int(input("Enter number of edges: "))
 
