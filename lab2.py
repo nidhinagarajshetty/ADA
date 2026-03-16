@@ -25,7 +25,6 @@ def topological_sort(n, edges):
 
 n = int(input("Enter number of vertices: "))
 e = int(input("Enter number of edges: "))
-
 edges = []
 for _ in range(e):
     u, v = map(int, input().split())
